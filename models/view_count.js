@@ -3,8 +3,7 @@ const mongoose = require("mongoose");
 const view_counter = new mongoose.Schema({
     date: {
         type: Date,
-        default: Date.now(),
-        unique: true,
+        default: Date.now,
     },
     secure: {
         type: Boolean,

@@ -17,11 +17,11 @@ app.use(express.static("public"));
 
 app.use("/", home_router);
 
-/*Error Handling
+//Error Handling
 
 app.all("*", (req, res, next) => {
     res.status(404);
     res.json({status: "Fail", error: `Cannot find ${req.originalUrl}`});
 });
-*/
+
 module.exports = app;
