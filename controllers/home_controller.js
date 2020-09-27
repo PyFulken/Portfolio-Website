@@ -7,7 +7,7 @@ const ejs = require("ejs")
 
 exports.get_homepage = async (req, res) => {
     try {
-        let counting = await Counter.create({secure: req.secure});
+        //let counting = await Counter.create({secure: req.secure});
         let query = await Counter.find();
         res.status(200);
         res.render("homepage", {data: query.length});
