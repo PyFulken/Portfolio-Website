@@ -16,6 +16,24 @@ body{
     font-weight: 200;
     text-shadow: 0px 0px 10px #000000, 0px 0px 10px #000000, 0px 0px 10px #000000;
 }
+.visitorcounter{
+    font-family: "Comfortaa";
+    border: black;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: right;
+    text-shadow: 0px 0px 5px #000000, 0px 0px 5px #000000;
+    padding-right: 10%;
+    float: right;
+}
+
+.paddingdiv{
+    padding-bottom: 5%;
+}
+
+.videopaddingdiv{
+    padding-bottom: 10%;
+}
 
 .socials{
     padding-left: 9%;
@@ -29,4 +47,42 @@ body{
     padding-top: 1%;
     width:70px;
     height:70px;
+}
+
+.videoloopleft{
+    padding-left: 15%;
+    width: 25%;
+    height: 25%;
+    float: inline-start;
+    border-radius: 3%;
+    transition: transform .2s
+    
+}
+
+.videoloopright{
+    padding-right: 15%;
+    width: 25%;
+    height: 25%;
+    float: inline-end;
+    border-radius: 3%;
+    transition: transform .2s
+
+}
+
+.videoloopleft:hover {
+    transform: scale(2);
+}
+
+.videoloopright:hover {
+    transform: scale(2);
+}
+
+.descriptionright{
+    display: inline;
+    max-width: 20%;
+}
+
+.descriptionrleft{
+    padding-left: 15;
+    max-width: 20%;
 }
